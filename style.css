@@ -52,6 +52,30 @@ body {
   border-radius: 10px;
 }
 
+/* 2th Section - Strategic Planning */
+#strategic-planning {
+  background-color: #9792e4;
+  max-width: 100%;
+  padding-top: 5px;
+}
+
+#strategic-planning > .container {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+}
+#strategic-planning > .container .sp-col {
+  width: 100%;
+  min-height: 250px;
+
+  margin-bottom: 25px;
+  border: 1px dashed rgb(255, 191, 0);
+
+  background-color: #ffffff;
+  border-radius: 10px;
+}
+
+/***** MEDIA SCREEN SETTINGS *****/
 /*TABLET*/
 @media screen and (min-width: 576px) {
   #main-container > .container {
@@ -75,5 +99,15 @@ body {
     max-width: 992px;
     margin-left: auto;
     margin-right: auto;
+  }
+  /* 2th section - strategic planning */
+  #strategic-planning > .container {
+    flex-direction: row;
+    max-width: 992px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #strategic-planning > .container .sp-col:first-child {
+    margin-right: 20px;
   }
 }
