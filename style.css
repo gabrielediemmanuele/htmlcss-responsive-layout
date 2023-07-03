@@ -64,6 +64,7 @@ body {
   display: flex;
   flex-direction: column;
 }
+
 #strategic-planning > .container .sp-col {
   width: 100%;
   min-height: 250px;
@@ -73,6 +74,36 @@ body {
 
   background-color: #ffffff;
   border-radius: 10px;
+}
+
+/* 3th Section - TESTIMONIALS  */
+#testimonials > .container {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+}
+
+#testimonials > .container .tn-col {
+  width: 100%;
+  min-height: 250px;
+
+  margin-bottom: 25px;
+  border: 1px dashed rgb(255, 191, 0);
+
+  background-color: #9792e4;
+  border-radius: 10px;
+}
+
+/* 4th section BENEFITS  */
+
+#benefits {
+  background-color: #9792e4;
+}
+
+#benefits > .container {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
 }
 
 /***** MEDIA SCREEN SETTINGS *****/
