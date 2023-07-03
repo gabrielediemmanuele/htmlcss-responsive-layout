@@ -98,12 +98,24 @@ body {
 
 #benefits {
   background-color: #9792e4;
+  padding-top: 5px;
 }
 
 #benefits > .container {
   margin-top: 40px;
   display: flex;
   flex-direction: column;
+}
+
+#benefits > .container .ben-col {
+  width: 100%;
+  min-height: 250px;
+
+  margin-bottom: 25px;
+  border: 1px dashed rgb(255, 191, 0);
+
+  background-color: #ffffff;
+  border-radius: 10px;
 }
 
 /***** MEDIA SCREEN SETTINGS *****/
@@ -121,6 +133,19 @@ body {
   }
   #main-container > .container .col:first-child {
     width: calc(100% / 3 * 2 - 12px);
+  }
+
+  /* 4th section Benefits  */
+  #benefits > .container {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  #benefits > .container .ben-col {
+    width: calc(100% / 2 - 20px);
+    margin-left: 5px;
+    margin-right: 5px;
   }
 }
 
@@ -140,5 +165,12 @@ body {
   }
   #strategic-planning > .container .sp-col:first-child {
     margin-right: 20px;
+  }
+
+  /* 4th section - Benefits */
+  #benefits > .container .ben-col {
+    width: calc(100% / 3 - 20px);
+    margin-left: 5px;
+    margin-right: 5px;
   }
 }
