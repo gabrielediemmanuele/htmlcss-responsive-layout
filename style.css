@@ -167,7 +167,19 @@ body {
     margin-right: 20px;
   }
 
+  /* 3th SECTION  - TESTIMONIALS */
+  #testimonials > .container {
+    max-width: 992px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
   /* 4th section - Benefits */
+  #benefits > .container {
+    max-width: 992px;
+    margin-left: auto;
+    margin-right: auto;
+  }
   #benefits > .container .ben-col {
     width: calc(100% / 3 - 20px);
     margin-left: 5px;
