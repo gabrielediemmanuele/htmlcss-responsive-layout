@@ -170,6 +170,28 @@ body {
   border-radius: 10px;
 }
 
+/* FOOTER SECTION */
+#footer-cont {
+  background-color: #333333;
+  padding-top: 2px;
+}
+
+#footer-cont > .container {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+}
+
+#footer-cont > .container .foot-cont {
+  width: 100%;
+  min-height: 50px;
+
+  margin-bottom: 35px;
+  border: 1px dashed rgb(255, 106, 0);
+
+  background-color: #ffaa00;
+}
+
 /*********************************/
 /***** MEDIA SCREEN SETTINGS *****/
 /*********************************/
@@ -271,4 +293,16 @@ body {
   }
 
   /* 6th section - GET STARTED */
+  #get-started > .container {
+    max-width: 992px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  /* FOOTER SECTION */
+  #footer-cont > .container {
+    max-width: 992px;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
