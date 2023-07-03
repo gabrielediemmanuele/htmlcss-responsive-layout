@@ -146,6 +146,30 @@ body {
   border-radius: 10px;
 }
 
+/* 6th section GET STARTED */
+#get-started {
+  background-color: #9792e4;
+  padding-top: 5px;
+}
+
+#get-started > .container {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  min-height: 250px; /*da togliere*/
+}
+
+#get-started > .container .gs-cont {
+  width: 100%;
+  min-height: 250px;
+
+  margin-bottom: 25px;
+  border: 1px dashed rgb(255, 106, 0);
+
+  background-color: #ffaa00;
+  border-radius: 10px;
+}
+
 /*********************************/
 /***** MEDIA SCREEN SETTINGS *****/
 /*********************************/
@@ -245,4 +269,6 @@ body {
   #about-us > .container .au-img-cont {
     width: 30%;
   }
+
+  /* 6th section - GET STARTED */
 }
