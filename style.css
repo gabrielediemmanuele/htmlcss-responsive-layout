@@ -155,6 +155,33 @@ p,
 
   background-color: #ffffff;
   border-radius: 10px;
+  padding: 20px 15px 20px 15px;
+
+  display: flex;
+  flex-direction: column;
+}
+
+#strategic-planning > .container .sp-col:first-child {
+  color: white;
+}
+
+#strategic-planning > .container #first-sp-col {
+  background-color: #9792e4;
+}
+
+#strategic-planning .container .sp-col .card {
+  width: 100%;
+  min-height: 40px;
+  border: 2px dashed red;
+}
+
+.sp-col .card > img {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.sp-col .card > h3 {
+  margin-bottom: 25px;
 }
 
 /* 3th Section - TESTIMONIALS  */
