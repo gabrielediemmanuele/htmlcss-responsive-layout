@@ -207,7 +207,7 @@ p,
   min-height: 250px;
 
   margin-bottom: 25px;
-  border: 2px dashed rgb(90, 126, 216);
+  /* border: 2px dashed rgb(90, 126, 216); */
 
   background-color: #ffffff;
   border-radius: 10px;
@@ -222,16 +222,22 @@ p,
   width: 100%;
   min-height: 25px;
   background-color: #9792e4;
-  border: 2px dashed orange;
+  /* border: 2px dashed orange; */
 
   display: flex;
   flex-direction: column;
   align-items: center;
 
   padding: 20px;
+  border-radius: 40px;
+  color: white;
+  margin-bottom: 20px;
 }
 
 /* 3th Section Text */
+.tn-col .tn-text {
+  margin-bottom: 20px;
+}
 .tn-col .tn-text h5,
 h4,
 p {
@@ -246,7 +252,9 @@ p {
 .tn-col .card > .img-cont {
   width: 150px;
   min-height: 150px;
-  border: 2px dashed yellow;
+  /* border: 2px dashed yellow; */
+  margin-bottom: 20px;
+  aspect-ratio: 1;
 }
 
 .tn-col .card > .img-cont > img {
@@ -375,6 +383,25 @@ p {
     width: calc(100% / 3 * 2 - 12px);
   }
 
+  /*  3th SECTION TESTIMONIALS */
+  #testimonials > .container .tn-col {
+    flex-direction: column;
+  }
+  #testimonials > .container .tn-col .card {
+    flex-direction: row;
+  }
+  .tn-col .card > .img-cont {
+    margin-bottom: 0;
+    margin-right: 20px;
+  }
+
+  .tn-col .card .text-cont {
+    text-align: left;
+  }
+  .tn-col .card .text-cont > h4,
+  p {
+    margin-bottom: 10px;
+  }
   /* 4th section Benefits  */
   #benefits > .container {
     flex-direction: row;
@@ -454,7 +481,6 @@ p {
     margin-left: auto;
     margin-right: auto;
   }
-
   /* 4th section - Benefits */
   #benefits > .container {
     max-width: 992px;
