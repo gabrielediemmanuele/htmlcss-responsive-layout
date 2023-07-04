@@ -472,7 +472,7 @@ p {
 /* FOOTER SECTION */
 #footer-cont {
   background-color: #333333;
-  padding-top: 2px;
+  padding: 2px;
 }
 
 #footer-cont > .container {
@@ -486,11 +486,19 @@ p {
   min-height: 50px;
 
   margin-bottom: 35px;
-  border: 1px dashed rgb(255, 106, 0);
+  /* border: 1px dashed rgb(255, 106, 0); */
 
-  background-color: #ffaa00;
+  text-align: center;
+  color: white;
 }
 
+.foot-cont {
+  font-size: 12px;
+}
+
+.foot-cont p > a {
+  color: #9792e4;
+}
 /*********************************/
 /***** MEDIA SCREEN SETTINGS *****/
 /*********************************/
@@ -555,6 +563,14 @@ p {
   }
   #about-us > .container .au-img-cont {
     width: 50%;
+  }
+  /*th6 SECTION get started*/
+  #get-started > .container .gs-cont {
+    padding: 2px 60px;
+  }
+  /*FOOTER*/
+  #footer-cont {
+    padding: 2px 60px;
   }
 }
 
@@ -644,11 +660,17 @@ p {
     margin-left: auto;
     margin-right: auto;
   }
+  #get-started > .container .gs-cont {
+    padding: 2px 260px;
+  }
 
   /* FOOTER SECTION */
   #footer-cont > .container {
     max-width: 992px;
     margin-left: auto;
     margin-right: auto;
+  }
+  #footer-cont {
+    padding: 2px 360px;
   }
 }
