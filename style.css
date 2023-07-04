@@ -289,7 +289,7 @@ p {
   min-height: 250px;
 
   margin-bottom: 25px;
-  border: 1px dashed rgb(255, 191, 0);
+  /* border: 1px dashed rgb(255, 191, 0); */
 
   background-color: #ffffff;
   border-radius: 10px;
