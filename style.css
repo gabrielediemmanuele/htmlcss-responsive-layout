@@ -64,6 +64,7 @@ body {
   margin-top: 40px;
   display: flex;
   flex-direction: column;
+  margin-bottom: 40px;
 }
 
 #main-container > .container .col {
@@ -71,7 +72,7 @@ body {
   min-height: 250px;
 
   margin-bottom: 25px;
-  border: 1px dashed red;
+  /* border: 1px dashed red; */
 
   background-color: #b5ddff;
   border-radius: 10px;
@@ -87,16 +88,26 @@ body {
   width: 100%;
   min-height: 50px;
 
-  border: 1px dashed red;
+  /* border: 1px dashed red; */
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
+
+  text-align: center;
 }
 
 #main-container .col .card > img {
   width: 80%;
   margin-top: 20px;
+}
+
+#main-container .col .card > .fa-file-code,
+.fa-compass-drafting,
+.fa-laptop-code,
+.fa-bullhorn {
+  font-size: 50px;
+  margin-bottom: 20px;
 }
 
 #main-container .col .card > h3,
@@ -108,9 +119,10 @@ p,
 #main-container .col .card > h3 {
   color: #0486fd;
 }
-#main-container .col .card > p {
+#main-container #first-column .card > p {
   font-size: 13px;
   color: #36424c;
+  text-align: left;
 }
 
 #main-container .col .card > .main-button {
