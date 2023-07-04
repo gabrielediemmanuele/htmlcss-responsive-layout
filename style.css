@@ -31,6 +31,27 @@ body {
   justify-content: space-between;
   align-items: center;
 }
+/**NAV MENù **/
+.nav-bar > ul {
+  display: flex;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  color: black;
+  font-size: 15px;
+  display: none;
+  color: white;
+}
+
+.nav-bar > ul li {
+  margin-right: 10px;
+}
+
+#nav-button {
+  padding: 2px 4px;
+  background-color: white;
+  border-radius: 5px;
+}
 
 /*MAIN*/
 
@@ -196,7 +217,8 @@ body {
 /***** MEDIA SCREEN SETTINGS *****/
 /*********************************/
 
-/*TABLET*/
+/********* TABLET **********/
+/**************************/
 @media screen and (min-width: 576px) {
   #main-container > .container {
     flex-direction: row;
@@ -239,8 +261,16 @@ body {
   }
 }
 
-/*DESKTOP*/
+/********** DESKTOP **********/
+/****************************/
 @media screen and (min-width: 992px) {
+  /**HEADER**/
+  #header > .container {
+    max-width: 992px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
   #main-container > .container {
     max-width: 992px;
     margin-left: auto;
