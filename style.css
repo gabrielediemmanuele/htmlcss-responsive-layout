@@ -428,10 +428,45 @@ p {
   min-height: 250px;
 
   margin-bottom: 25px;
-  border: 1px dashed rgb(255, 106, 0);
+  /* border: 1px dashed rgb(255, 106, 0); */
+  color: white;
+  text-align: center;
 
-  background-color: #ffaa00;
-  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+/*TEXT SETTINGS*/
+.gs-cont > h5 {
+  font-weight: 100;
+  margin-bottom: 10px;
+}
+.gs-cont > h3 {
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+.gs-cont > h2 {
+  font-size: 45px;
+  color: #fdc15f;
+  margin-bottom: 20px;
+}
+.gs-cont .gt-button {
+  background-color: white;
+  color: #fdc15f;
+  padding: 20px 50px;
+  border-radius: 35px;
+  cursor: pointer;
+  letter-spacing: 5px;
+  margin-bottom: 20px;
+}
+
+.gs-cont span {
+  font-size: 11px;
+}
+.gs-cont span > a {
+  color: white;
 }
 
 /* FOOTER SECTION */
