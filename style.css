@@ -151,10 +151,10 @@ p,
   min-height: 250px;
 
   margin-bottom: 25px;
-  border: 1px dashed rgb(255, 191, 0);
+  /* border: 1px dashed rgb(255, 191, 0); */
 
   background-color: #ffffff;
-  border-radius: 10px;
+  border-radius: 50px;
   padding: 20px 15px 20px 15px;
 
   display: flex;
@@ -169,10 +169,15 @@ p,
   background-color: #9792e4;
 }
 
+#strategic-planning .container .sp-col > #appdev {
+  text-align: left;
+}
+
 #strategic-planning .container .sp-col .card {
   width: 100%;
-  min-height: 40px;
-  border: 2px dashed red;
+  /* min-height: 40px; */
+  /* border: 2px dashed red; */
+  text-align: center;
 }
 
 .sp-col .card > img {
@@ -184,6 +189,12 @@ p,
   margin-bottom: 25px;
 }
 
+.sp-col .card .arrow > .fa-arrow-down {
+  background-color: #9792e4;
+  border-radius: 50%;
+  padding: 20px 16px;
+  font-size: 15px;
+}
 /* 3th Section - TESTIMONIALS  */
 #testimonials > .container {
   margin-top: 40px;
@@ -384,9 +395,14 @@ p,
     max-width: 992px;
     margin-left: auto;
     margin-right: auto;
+    align-items: end;
   }
   #strategic-planning > .container .sp-col:first-child {
     margin-right: 20px;
+  }
+  #strategic-planning > .container #last-sp-col {
+    width: 60%;
+    height: 80%;
   }
 
   /* 3th SECTION  - TESTIMONIALS */
