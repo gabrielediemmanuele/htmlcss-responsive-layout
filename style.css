@@ -95,7 +95,8 @@ body {
 }
 
 #main-container .col .card > img {
-  width: 100%;
+  width: 80%;
+  margin-top: 20px;
 }
 
 #main-container .col .card > h3,
@@ -331,6 +332,12 @@ p,
     max-width: 992px;
     margin-left: auto;
     margin-right: auto;
+  }
+
+  /* 1th section - get a demo */
+  #main-container #first-column {
+    flex-direction: row;
+    align-items: flex-start;
   }
   /* 2th section - strategic planning */
   #strategic-planning > .container {
