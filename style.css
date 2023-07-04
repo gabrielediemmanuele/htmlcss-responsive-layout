@@ -301,7 +301,7 @@ p {
 
   color: #555555;
 }
-
+/*Benefits INSIDE .ben-col*/
 #benefits > .container .ben-col > h2 {
   margin-bottom: 10px;
   font-size: 40px;
@@ -321,8 +321,6 @@ p {
   cursor: pointer;
 }
 
-/*Benefits INSIDE .ben-col*/
-
 /* 5th Section About-US */
 #about-us > .container {
   margin-top: 40px;
@@ -330,25 +328,86 @@ p {
   flex-direction: column;
 }
 
+/*au-text-cont*/
 #about-us > .container .au-text-cont {
   width: 100%;
   min-height: 200px;
 
   margin-bottom: 25px;
-  border: 1px dashed rgb(255, 191, 0);
+  /* border: 1px dashed rgb(255, 191, 0); */
 
-  background-color: #9792e4;
+  background-color: #ffffff;
   border-radius: 10px;
+  padding: 20px;
 }
+#about-us > .container .au-text-cont h2 {
+  color: #9792e4;
+  margin-bottom: 25px;
+}
+#about-us > .container .au-text-cont p {
+  line-height: 25px;
+  color: #333333;
+}
+
+/*au-img-cont*/
 #about-us > .container .au-img-cont {
   width: 100%;
   min-height: 200px;
 
-  margin-bottom: 25px;
-  border: 1px dashed rgb(255, 191, 0);
+  margin-bottom: 55px;
+  /* border: 1px dashed rgb(255, 191, 0); */
 
-  background-color: #9792e4;
+  background-color: #ffffff;
   border-radius: 10px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.au-img-cont > .img-cont {
+  width: 150px;
+  min-height: 150px;
+  /* border: 2px dashed yellow; */
+  margin-bottom: 20px;
+  aspect-ratio: 1;
+
+  position: relative;
+}
+
+/*IMG SETTINGS*/
+.au-img-cont > .img-cont .fa-quote-left {
+  position: absolute;
+  left: 104px;
+  top: 20px;
+  font-size: 55px;
+}
+
+.au-img-cont > .img-cont > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+/*TEXT AND BUTTON*/
+.au-img-cont > p {
+  font-size: 25px;
+  color: #9792e4;
+  font-weight: bold;
+}
+
+.au-img-cont .au-button {
+  background-color: #9792e4;
+  border-radius: 20px;
+  padding: 10px 5px;
+  color: white;
+  cursor: pointer;
+}
+.au-img-cont .au-button > a {
+  text-decoration: none;
+  color: white;
+  margin-left: 5px;
 }
 
 /* 6th section GET STARTED */
